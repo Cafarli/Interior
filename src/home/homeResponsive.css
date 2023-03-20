@@ -1,0 +1,80 @@
+@media screen and (max-width: 768px){
+    .homeOther {
+        width: 80%; 
+    }
+    /* HOME NEWS */
+    .homeNews>h1 {
+        width: 50%;
+    }
+    .homeNews>p {
+        width: 50%;
+        
+    }
+    .homeNews>a>button {
+        width: 20%;
+        padding: 2% 2%;
+    }
+
+    /* HOME PLANS */
+    .homePlan>a>button {
+        width: 60%;
+    }
+
+    /* HOME EXPERIENCE */
+    .home-experience{
+        width: 72.5%;
+    }
+    /* CALL US */
+    .callUs {
+        flex-direction: row;
+    }
+    .callUs>.phoneNum {
+        width: 50%;
+    }
+    .callUs>a {
+        width: 32%;
+    }
+    .callUs>a>button {
+        width: 100%;
+        padding: 0% 0;
+    }
+    /* PEOPLE THOUGHTS */
+    .people-thoughts>h1 {
+        width: 60%;
+        font-size: 30px;
+    }
+    .person { 
+        padding: 2.5%;
+    }
+    .person-title>div {
+        width: 28%;
+        margin-right: 3%;
+    }
+    .person-title>p {
+        width: 65%;
+        font-size: 14px;
+        margin: 2% 0;
+    }
+    .person-title>p>span {
+        font-size: 12px;
+    }
+
+    /* ARTICLES */
+    .article-content>p{
+        font-size: 15px;
+        width: 90%;
+    }
+
+    /* INTERNO */
+    .h-interno>h1 {
+        font-size: 28px;
+    }
+    .h-interno>p {
+        font-size: 13px;
+    }
+
+    .h-interno>a {
+        width: 30%;
+    }    
+
+    }

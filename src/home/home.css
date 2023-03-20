@@ -1,0 +1,528 @@
+.home {
+    width: 100%;
+    margin: 0;
+}
+.homeNews {
+    width: 90%;
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    border-bottom-left-radius: 25%;
+    margin-bottom: 5%;
+}
+
+.homeNews>h1 {
+    width: 30%;
+    font-size: 50px;
+    margin: 0;
+}
+
+.homeNews>p {
+    width: 40%;
+    color: #4D5053;
+    font-family: 'Jost';
+}
+
+.homeNews>a>button {
+    width: 12%;
+    padding: 1% 2%;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Jost';
+    background-color: #292F36;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.homeOther {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* HOME PLANS */
+.homePlans {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.homePlan {
+    text-align: center;
+    margin: 0 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePlan>a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homePlan>a>button {
+    margin: 5% 0;
+    width: 45%;
+    padding: 4% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* HOME PROJECTS */
+.homeAboutUs {
+    width: 100%;
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homeAboutUs>.hp-subtext {
+    width: 50%;
+}
+
+.homeAboutUs>.hp-subtext>h1 {
+    width: 70%; 
+}
+
+.homeAboutUs>.hp-subtext>p {
+    width: 86%;
+}
+
+.hp-img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.hp-img>img{
+    width: 100%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 15%;
+}
+
+/* CALL US */
+.callUs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 10% 0;
+}
+
+.callUs>.phoneNum {
+    display: flex;
+    font-family: 'Jost';
+    align-items: center;
+}
+
+.h-icon {
+    border: 1px solid white;
+    color: #CDA274;
+    background-color: #F4F0EC;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+}
+
+.callUs>.phoneNum>a>p {
+    font-weight: 600;
+}
+
+.callUs>.phoneNum>a>p>span {
+    color: #4D5053;
+    font-size: 15px;    
+    font-weight: 400;
+}
+
+.callUs>a {
+    width: 40%;
+    display: flex;
+}
+
+.callUs>a>button {
+    width: 100%;
+    padding: 12% 0;
+    margin: 5% 0;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #292F36;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* BRANDS */
+.home-brands {
+    width: 100%;
+    margin: 5% 0;
+}
+
+.home-brands>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.home-brands>ul>ol {
+    width: 12%;
+}
+
+.home-brands>ul>ol>img {
+    width: 100%;
+}
+/* PEOPLE THOUGHTS */
+.people-thoughts {
+    width: 94%;
+    padding: 5% 3% 7% 3%;
+    background-color: #F4F0EC;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.people-thoughts>h1 {
+    margin: 3% auto;
+    width: 40%;
+}
+
+.people {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    width: 26%;
+    text-align: start;
+    padding: 3%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.person-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.person-title>div {
+    object-fit: cover;
+    width: 27%;
+    margin-right: 5%;
+}
+.person-title>div>img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.person-title>p {
+    font-family: 'Dm Serif Display';
+    font-size: 17px;
+    width: 100%;
+}
+
+.person-title>p>span {
+    font-family: 'Jost';
+    font-size: 14px;
+    color: #4D5053;
+}
+
+.thought {
+    font-family: 'Jost';
+    color: #4D5053;
+    font-size: 15px;
+}
+
+/* HOME PROJECTS */
+.homeProjects {
+    width: 100%;
+    text-align: center;
+}
+
+.homeProjects>h1 {
+    margin: 0;
+}
+
+.homeProjects>p {
+    width: 70%;
+    margin: 3% auto;
+}
+
+.hp-list {
+    margin: 5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hp-project {
+    display: flex;
+    flex-direction: column;
+    /* flex: 1 1 40%; */
+    width: 45%;
+    margin: 3% 0;
+}
+
+.hp-pro-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.hp-pro-img>img {
+    border-radius: 30px;
+    width: 100%;
+}
+
+.hp-pro-detail {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.hp-pro-info {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+}
+
+.hp-prj-title {
+    font-family: 'Dm Serif Display';
+    font-size: 18px;
+    margin: 8% 0 4% 0;
+    width: 100%;
+    color: #292F36;
+}
+
+.hp-prj-path {
+    width: 100%;
+    font-size: 14px;
+    color: #4D5053;
+    font-family: 'Jost';
+    margin: 0;
+    width: 50%;
+}
+
+.hp-pro-btn {
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hp-pro-btn>a{
+    width: 80%;
+    display: flex;
+}
+
+.hp-pro-btn>a>button{
+    width: 90%;
+    border-radius: 50%;
+    padding: 27%;
+    background-color: #F4F0EC;
+    border: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* HOME EXPERIENCE */
+
+.home-experience {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F0EC;
+    padding: 5% 15%;
+    margin: 5% auto 7% auto;
+}
+
+.home-experience>div {
+    text-align: center;
+}
+
+.home-experience>div>p:last-child {
+    font-family: 'Jost';
+}
+
+.home-experience>div>.num {
+    font-family: 'Dm Serif Display';
+    font-size: 45px;
+    margin: 0;
+    color: #CDA274;
+}
+
+.h-s-project
+{
+    border-right: 1px solid #CDA274;
+    border-left: 1px solid #CDA274;
+    padding: 0% 8%;
+    margin: 0 6% 0 6%;
+}
+.h-a-project {
+    border-right: 1px solid #CDA274;
+    padding: 0% 8% 0 0;
+    margin: 0 8% 0 0;
+}
+
+/* ARTICLES */
+.articleNews {
+    width: 70%;
+    margin: 5% auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articleNews>h1 {
+    margin: 0;
+}
+
+.articleNews>p{
+    width: 70%;
+    font-family: 'Jost';
+    color: #4D5053;
+}
+
+.articles {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    width: 28%;
+    padding: 2%;
+    border-radius: 30px;
+}
+
+.nochosen {
+    background-color: transparent;
+}
+
+.chosen {
+    background-color: #F4F0EC;
+}
+
+.article-header {
+    width: 100%;
+    object-fit: cover;
+}
+
+.article-header>img {
+    width: 100%;
+    border-top-right-radius: 15%;
+    border-top-left-radius: 15%;
+}
+
+.article-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.article-content>p{
+    font-family: 'Dm Serif Display';
+    font-size: 17px;
+    width: 80%;
+}
+
+.ac-detail {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ac-detail>p {
+    width: 70%;
+    text-align: start;
+    color: #4D5053;
+    font-size: 13px;
+    font-family: 'Jost';
+}
+
+.ac-detail>a {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ac-detail>a>button{
+    width: 50%;
+    border-radius: 50%;
+    padding: 15%;
+    background-color: #F4F0EC;
+    border: none;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* INTERNO */
+.h-interno {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 8% auto;
+    padding: 3% 0;
+    background-color: #292F36;
+    border-radius: 50px;
+    color: white;
+}
+
+.h-interno>h1 {
+    color: white;
+    margin: 0;
+}
+
+.h-interno>a {
+    width: 24%;
+}
+
+.h-interno>a>button {
+    color: white;
+    width: 100%;
+    margin: 3% 0%;
+    padding: 8% 0%;
+    border-radius: 15px;
+    border: none;
+    background-color: #CDA274;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

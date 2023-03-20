@@ -1,0 +1,228 @@
+.teamSingle {
+  width: 100%;
+}
+
+.single-header {
+  width: 100%;
+  height: 42vh;
+  background-image: url("../images/backgroung/teamSingleBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.single-header > h1 {
+  width: 30%;
+  margin: 0;
+  padding: 2% 3% 0.5% 3%;
+  background-color: white;
+  color: #292f36;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.single-header > h1 > p {
+  color: #4d5053;
+  font-size: 14px;
+  font-family: Jost;
+}
+
+.personal-detail {
+  width: 60%;
+  display: flex;
+  margin: 10% auto 5% auto;
+}
+
+.personal-img {
+  width: 40%;
+  object-fit: cover;
+  margin-right: 8%;
+}
+
+.personal-img > img {
+  width: 100%;
+}
+
+.p-d-content {
+  width: 65%;
+  padding: 5% 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.p-d-info > h1 {
+  color: #292f36;
+  margin: 0;
+}
+
+.p-d-info > p {
+  color: #4d5053;
+}
+
+.job {
+  margin: 0;
+}
+
+.icons > p {
+  display: flex;
+  align-items: center;
+  padding-bottom: 3%;
+}
+
+.icon {
+  border: 1px solid white;
+  color: #cda274;
+  background-color: #f4f0ec;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5%;
+}
+
+.single-smedias {
+  margin-top: 5%;
+}
+
+.single-smedias > ul {
+  display: flex;
+  padding: 0;
+}
+
+.single-smedias > ul > li {
+  list-style-type: none;
+  margin-right: 7%;
+}
+
+/* biography */
+.biography {
+  width: 65%;
+  margin: 0 auto 10% auto;
+}
+
+.bio {
+  margin-bottom: 5%;
+}
+
+.bio > h1 {
+  font-family: "Dm Serif Display";
+  color: #292f36;
+}
+
+.bio > p,
+.questions > p,
+.skill > p {
+  font-family: "Jost";
+  color: #4d5053;
+  font-size: 16px;
+}
+
+.bio-skill {
+  display: flex;
+}
+.skill {
+  width: 50%;
+  margin-right: 7%;
+}
+.questions {
+  width: 45%;
+}
+
+.skill > h3 {
+  font-family: "Dm sSerif Display";
+}
+
+/* others */
+.others {
+  width: 100%;
+  background-color: #f4f0ec;
+  text-align: center;
+  padding: 10% 0%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.others > h1 {
+  margin-bottom: 3%;
+  color: #292f36;
+}
+
+ .other-members {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+}
+
+
+/* contact me */
+.single-contact {
+  width: 60%;
+  margin: 10% auto;
+}
+
+.single-contact > h1 {
+  text-align: center;
+}
+
+.nameEmail {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameEmail > input {
+  width: 45%;
+}
+
+.nameEmail > input,
+.single-mail-content > textarea {
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  border-bottom: groove;
+  border-bottom: 1px solid black;
+  color: #292f36;
+  outline: none;
+  font-family: "Jost";
+  font-size: 15px;
+}
+
+
+.single-mail-content > textarea {
+  width: 100%;
+  margin-top: 5%;
+  height: 20vh;
+  resize: none;
+}
+
+.single-mail-send>.saving {
+  margin: 5% auto 0% auto;
+  display: flex;
+  justify-content: center;
+}
+
+.send-button {
+  width: 100%;
+  margin-top: 8%;
+  display: flex;
+  justify-content: center;
+}
+
+.send-button > button {
+  width: 30%;
+  padding: 3% 0%;
+  border-radius: 15px;
+  background-color: #292f36;
+  color: white;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}

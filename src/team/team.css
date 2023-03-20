@@ -1,0 +1,92 @@
+.team {
+    width: 100%;
+}
+
+.team-header {
+  width: 100%;
+  height: 42vh;
+  background-image: url("../images/backgroung/teamBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.team-header > h1 {
+  width: 20%;
+  margin: 0;
+  padding: 2% 3% 0.5% 3%;
+  background-color: white;
+  color: #292f36;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.team-header > h1 > p {
+  color: #4d5053;
+  font-size: 14px;
+  font-family: Jost;
+}
+
+/* members */
+.team-members {
+    width: 70%;
+    margin: 10% auto 5% auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.team-members>a {
+    width: 23%;
+    margin: 3% 1% 5% 1%;
+}
+
+.team-members>ul>li>a {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 180px;
+}
+
+a>.member {
+    width: 100%;
+}
+
+.member-photo{
+    width: 100%;
+    object-fit: cover;
+}
+
+.member-photo>img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.member-info {
+    width: 100%;
+    text-align: center;
+}
+
+.fullname {
+    font-family: 'DM Serif Display';
+    font-size: 20px;
+    margin: 0;
+}
+
+.m-detail {
+    font-family: "Jost";
+    font-size: 14px;
+    margin: 0;
+}
+
+.member-info>ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.member-info>ul>li {
+    display: inline-block;
+    margin-right: 8%;
+}

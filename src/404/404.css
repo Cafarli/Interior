@@ -1,0 +1,50 @@
+.notFound {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.error-text {
+    width: 45%;
+    margin-left: 15%;
+}
+
+.error-text>h1 {
+    color: #CDA274;
+    font-family: "DM Serif Display";
+    font-size: 35vh;
+    margin: 0;
+}
+
+.error-text>p {
+    color: #292F36;
+    font-family: "DM Serif Display";
+    font-size: 4vh;
+    width: 70%;
+    margin: 0;
+}
+
+.error-text>button {
+    width: 30%;
+    font-family: "Jost";
+    font-size: 2.5vh;
+    padding: 3% 3%;
+    background-color: #292F36;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.error-img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.error-img>img {
+    width: 100%;
+    border-bottom-left-radius: 35%;
+}

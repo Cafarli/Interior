@@ -1,0 +1,70 @@
+.projectDetails {
+  width: 100%;
+}
+
+.pDetails-header {
+  height: 42vh;
+  background-image: url("../images/backgroung/projectDetailsBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.details {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  padding: 8% 0% 5% 0%;
+}
+
+.d-client-info {
+  width: 37%;
+  min-height: 40vh;
+  padding: 3% 3%;
+  background-color: #f4f0ec;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+table > tbody > tr {
+  color: #4d5053;
+}
+
+table > tbody > tr > td:first-child {
+  font-family: "DM Serif Display";
+  padding-right: 10vh;
+}
+
+table > tbody > tr > td:last-child {
+  font-family: "Jost";
+}
+
+.d-project-info {
+  width: 55%;
+  margin-left: 5%;
+}
+
+.d-project-info > h2 {
+  color: #292f36;
+  font-family: "DM Serif Display";
+  font-size: 30px;
+}
+
+.d-project-info > p {
+  color: #4d5053;
+  font-family: "Jost";
+}
+
+.zoomRoom {
+  width: 60%;
+  object-fit: cover;
+  margin: 2% auto 10% auto;
+}
+
+
+.zoomRoom > img {
+  width: 100%;
+  border-radius: 10%;
+}

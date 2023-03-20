@@ -1,0 +1,388 @@
+.blogD-header {
+    background-image: url("../images/backgroung/blogDetailsBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 42vh;
+}
+
+.blogDetailsAll {
+    width: 100%;
+    margin: 5% 0%;
+    display: flex;
+    justify-content: center;
+}
+
+/* CONTENT */
+
+.blog-content {
+    width: 45%;
+}
+
+.blog-content>h1:last-child {
+    color: #292F36;
+}
+
+.bc-photo {
+    width: 100%;
+    object-fit: cover;
+    margin: 4% 0%;
+}
+
+.bc-photo>img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.datePath {
+    display: flex;
+    justify-content: space-between;
+    color: #4D5053;
+    font-size: 14px;
+    font-family: "Jost";
+}
+
+.bc-text {
+    font-family: "Jost";
+    font-size: 16px;
+    color: #4D5053;
+}
+
+.bc-text>p {
+    color: #4D5053;
+}
+
+.t2>p>ul {
+    list-style-type: none; 
+    
+}
+
+.t2>p>ul>li {
+    height: 60px;
+}
+
+.t2>p>ul li::before {
+    list-style: none;
+    content: counter(li); 
+    color: #CDA274;
+    margin-right: 2%;
+    margin-left: -1em;
+}
+
+.t2>p>ul>li {
+    counter-increment: li;
+}
+
+/* QUOTES */
+.blogD-quotes {
+    color: #CDA274;
+    background-color: #F4F0EC;
+    border-radius: 40px;
+    padding: 5% 0%;
+    margin: 5% 0%;
+    width: 100%;
+    text-align: center;
+}
+
+.blogD-q-content>h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+.blogD-q-content>p {
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 18px;
+    font-family: "DM Serif Display";
+    width: 60%;
+}
+
+/* BLOG SOCIAL MEDIAS */
+.blogD-share {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 0%;
+    padding: 3% 0%;
+    border: 1px solid #E5E5E5;
+    border-right: none;
+    border-left: none;
+    width: 100%;
+}
+
+.bd-tags {
+    display: flex;
+}
+
+.bd-main-tag {
+    display: flex;
+    align-items: center;
+}
+
+.bd-main-tag>.tag {
+    font-family: "Dm Serif Display";
+}
+
+.bd-main-tag {
+    margin-right: 10%;
+}
+.bd-other-tags {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bd-other-tags>p {
+    font-family: "Jost";
+    margin-right: 10%;
+} 
+
+.bd-other-tags>p {
+    padding: 10% 15%;
+    border-radius: 10px;
+    background-color: #F4F0EC;
+    color: #292F36;
+}
+
+.blogD-share>.bd-smedias {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.blogD-share>.bd-smedias>ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.blogD-share>.bd-smedias>ul>li {
+    padding-right: 10%;
+}
+
+
+/* BLOG LEAVE REPLY */
+.blog-leave-reply {
+    width: 100%;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.blog-leave-reply>p:first-child {
+    font-family: "Dm Serif Display";
+    font-size: 28px;
+}
+
+.blog-leave-reply>div {
+    display: flex;
+}
+
+.blog-leave-reply>div>input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+    margin-left: 5%;
+    border-bottom: 1px solid black;
+}
+
+.blog-leave-reply>div>textarea{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+    margin-left: 5%;
+    resize: none;
+    min-height: 120px;
+    width: 100%;
+}
+
+.blog-leave-reply>.nameEmail>input,
+.blog-leave-reply>.sitePhone>input {
+    margin: 3% 0%;
+    width: 100%;
+    height: 33px;
+}
+
+.blog-leave-reply>.nameEmail>input:first-child,
+.blog-leave-reply>.sitePhone>input:first-child {
+    margin-right: 10%;
+}
+
+.blog-leave-reply>.interested {
+    width: 100%;
+    margin: 4% 0%;
+}
+
+.blog-leave-reply>.interested>textarea {
+    margin: 0;
+}
+
+.blogD-saving-send{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.blogD-saving {
+    margin-top: 3%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+    color: #CDA274;
+}
+
+.blogD-saving-send>.send {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.blogD-saving-send>.send>button{
+    width: 26%;
+    padding: 3% 0%;
+    border-radius: 15px;
+    background-color: #292F36;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* SIDE BAR */
+.blogD-sidebar {
+    width: 25%;
+    margin-left: 5%;
+}
+/* search */
+.search-box {
+    width: 100%;
+    background-color: #F4F0EC;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.search-box>input,
+.search-box>button {
+    color: #CDA274;
+    border: none;
+    background-color: transparent;
+}
+
+.search-box>input {
+    width: 80%;
+    height: 10vh;
+    padding-left: 5%;
+    outline: none;
+}
+
+.search-box>button {
+    width: 20%;
+    font-size: 4vh;
+    cursor: pointer;
+}
+
+/* latest news */
+.latest-news {
+    width: 100%;
+    margin: 10% 0%;
+}
+
+.latest-news>h2 {
+    font-family: 'DM Serif Display';
+    color: #292F36;
+}
+
+.news {
+    width: 100%;
+    padding: 2% 0%;
+    margin: 6% 0%;
+    border-bottom: 1px solid #CDA274;
+}
+
+.news-title {
+    font-family: 'DM Serif Display';
+    font-size: 17px;
+    color: #292F36;
+    width: 60%;
+    margin: 0;
+}
+
+.news-date {
+    font-family: 'Jost';
+    font-size: 14px;
+    margin: 0;
+    color: #4D5053;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* categories */
+.blogD-categories {
+    width: 80%;
+    background-color: #F4F0EC;
+    padding: 4% 10% 8% 10%;
+    margin: 5% 0%;
+    border-radius: 20px;
+}
+
+.blogD-categories>h2 {
+    font-family: 'DM Serif Display';
+    color: #292F36;
+}
+
+.blogD-categories>ul{
+    padding: 0%;
+}
+
+.blogD-categories>ul>ol{
+    padding: 6% 0%;
+    color: #4D5053;
+    border-bottom: 1px solid #CDA274;
+}
+
+/* all tags */
+.blogD-alltags {
+    width: 100%;
+    margin: 10% 0%;
+}
+
+.blogD-alltags>h2 {
+    font-family: 'DM Serif Display';
+    color: #292F36;
+}
+
+.blogD-tags {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.blogD-tag {
+    display: flex;
+    font-size: 2.5vh;
+    justify-content: center;
+    flex: 1 1 98px;
+    max-width: 37%;
+    padding: 4% 4%;
+    margin: 3% 2%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.selected {
+    color: white;
+    background-color: #292F36;
+}
+
+.nonselected {
+    background-color: #F4F0EC;
+    color: #292F36;
+}

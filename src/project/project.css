@@ -1,0 +1,157 @@
+.project {
+  width: 100%;
+}
+
+.project-header {
+  display: flex;
+  height: 42vh;
+  font-family: "DM Serif Display";
+  background-repeat: no-repeat;
+  background-image: url("../images/backgroung/projectBg.jpg");
+  margin-bottom: 10%;
+  background-size: cover;
+}
+
+.project-header > h1 {
+  width: 20%;
+  padding: 2% 3% 0.5% 3%;
+  background-color: white;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  align-self: flex-end;
+  text-align: center;
+  margin: 0 auto;
+  color: #292f36;
+}
+
+.project-header > h1 > p {
+  color: #4d5053;
+  font-size: 14px;
+  font-family: Jost;
+}
+
+/* CATEGORIES */
+.project-categories {
+  width: 50%;
+  margin: 5% auto;
+}
+
+.project-categories > ul {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  border: 1px solid #cda274;
+  border-radius: 20px;
+}
+
+.project-categories > ul > ol {
+  border-radius: 20px;
+  text-align: center;
+  padding: 3% 3%;
+  width: 25%;
+  border: none;
+  cursor: pointer;
+}
+
+.takenCategory {
+  background-color: #cda274;
+  color: white;
+}
+
+.notakenCategory {
+  background-color: transparent;
+  color: #292f36;
+}
+
+/* OUR PROJECTS */
+.our-projects {
+  width: 70%;
+  margin: 5% auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: auto;
+}
+
+.our-projects > h1 {
+  margin: 0;
+}
+
+.our-projects > p {
+  width: 70%;
+  margin: 3% auto;
+}
+
+.op-project {
+  display: flex;
+  flex-direction: column;
+  max-width: 45%;
+  margin: 2% 2%;
+  flex: 1 1 310px;
+}
+
+
+.op-pro-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.op-pro-img > img {
+  border-radius: 30px;
+  width: 100%;
+}
+
+.op-pro-detail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.op-pro-info {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+}
+
+.op-prj-title {
+  font-family: "Dm Serif Display";
+  font-size: 18px;
+  margin: 8% 0 4% 0;
+  width: 100%;
+}
+
+.op-prj-path {
+  width: 100%;
+  font-size: 14px;
+  font-family: "Jost";
+  margin: 0;
+  width: 50%;
+}
+
+.op-pro-btn {
+  width: 18%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.op-pro-btn > a {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.op-pro-btn > a > button {
+  width: 100%;
+  border-radius: 50%;
+  padding: 27%;
+  background-color: #f4f0ec;
+  border: none;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}

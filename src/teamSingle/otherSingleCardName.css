@@ -1,0 +1,42 @@
+.other-member-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 30px;
+  margin: 0 auto;
+  padding: 4% 1%;
+  width: 21%;
+  text-align: center;
+}
+
+.other-member-info>.mFullname {
+  font-family: 'Dm Serif Display';
+  font-size: 20px;
+  color: #292f36;
+}
+
+.other-member-info>.mFullname>span {
+  font-family: 'Jost';
+  font-size: 13px;
+  color: #4d5053;
+}
+
+.other-member-info>ul {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-top: 10%;
+}
+
+.other-member-info>ul>ol {
+  padding: 0;
+}
+
+.other-member-info>.mail {
+  width: 70%;
+  font-size: 13px;
+  color: #4d5053;
+  margin-top: 25%;
+}

@@ -1,0 +1,215 @@
+.about {
+    width: 100%;
+}
+
+.about-header {
+    display: flex;
+    height: 42vh;
+    font-family: 'DM Serif Display';
+    background-repeat: no-repeat;
+    background-image: url("../images/backgroung/aboutBg.png");
+    margin-bottom: 10%;
+    background-size: cover;
+}
+
+.about-header>h1{
+    width: 20%;
+    padding: 2% 3% 0.5% 3%;
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    align-self: flex-end;
+    text-align: center;
+    margin: 0 auto;
+    color: #292F36;
+}
+
+.about-header>h1>p {
+    color: #4D5053;
+        font-size: 14px;
+        font-family: Jost;
+}
+
+/* QUOTES */
+.quotes {
+    width: 100%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    width: 30%;
+}
+
+.quotes>h1,
+.content>.comment {
+    font-family: "Dm Serif Display";
+    font-style: italic;
+    margin: 0;
+}
+
+.quotes>h1 {
+    font-size: 40px;
+}
+
+.content>.comment {
+    font-size: 18px;
+}
+
+.author {
+    font-size: 12px;
+    font-family: "Jost";
+    padding-top: 3%;
+}
+
+.pattern {
+    width: 10%;
+    border: 15px solid #F4F0EC;
+    border-radius: 20%;
+}
+
+.second {
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    border-right-style: groove;
+}
+
+.first {
+    border-top-style: hidden;
+    border-left-style: groove;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+}
+
+/* about concept */
+.about-concept {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 8% 0%;
+}
+
+.con {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% auto;
+}
+
+.c-text {
+    width: 40%;
+    margin: 0% 5%;
+}
+
+.c-text>p{
+    font-family: "Jost";
+    color: #4D5053;
+}
+
+.c-text>h1 {
+    font-family: "Dm Serif Display";
+    color: #292F36;
+}
+
+.c-text>button{
+   width: 42%;
+   padding: 5% 0%; 
+   margin-top: 8%;
+   border-radius: 10px;
+   border: none;
+   background-color: #292F36;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Jost";
+}
+
+.concept-img {
+    object-fit: cover;
+    width: 50%;
+}
+
+.concept-img>img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+/*  creative-pro */
+
+.creative-pro {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.creative-pro>h1 {
+    width: 32%;
+    margin: 0 auto 5% auto;
+}
+
+.creMailBox {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.creNameEmail>input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+    margin-left: 5%;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.cre-text>textarea{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+    margin-left: 5%;
+    resize: none;
+    min-height: 20vh;
+    width: 100%;
+    color: black;
+}
+
+.creNameEmail {
+    display: flex;
+}
+
+.creNameEmail>input{
+    margin-bottom: 10%;
+    width: 100%;
+    height: 30px;
+}
+
+.cre-text {
+    width: 100%;
+}
+
+.cre-send {
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.cre-send>button{
+    width: 28%;
+    padding: 3% 0%;
+    border-radius: 15px;
+    background-color: #292F36;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

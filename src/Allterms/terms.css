@@ -1,0 +1,14 @@
+.termsConditions {
+    width: 70%;
+    margin: 5% auto;
+}
+
+.termsConditions>h1 {
+    text-align: center;
+    color: #292F36;
+}
+
+.termsConditions>p {
+    font-family: 'Jost';
+    color: #4D5053;
+}

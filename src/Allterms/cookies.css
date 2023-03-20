@@ -1,0 +1,13 @@
+.cookies {
+    width: 70%;
+    margin: 5% auto 8% auto;
+}
+
+.cookies>p{
+    font-family: 'Jost';
+    color: #4D5053;
+}
+
+.cookiesTitle {
+    font-weight: bold;
+}

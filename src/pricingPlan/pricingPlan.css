@@ -1,0 +1,134 @@
+.pricingPlan {
+  width: 100%;
+}
+
+.pricing-header {
+  width: 100%;
+  height: 42vh;
+  background-image: url("../images/backgroung/PricingPlanBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.pricing-header > h1 {
+  width: 20%;
+  margin: 0;
+  padding: 2% 3% 0.5% 3%;
+  background-color: white;
+  color: #292f36;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.pricing-header > h1 > p {
+  color: #4d5053;
+  font-size: 14px;
+  font-family: Jost;
+}
+
+/* plans */
+.plans {
+  margin: 10% 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.first,
+.second {
+  margin-right: 4%;
+}
+
+.plan {
+  background-color: #f4f0ec;
+  width: 20%;
+  border-radius: 30px;
+  padding: 4%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.plan:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.price {
+  width: 100%;
+  font-family: 'DM Serif Display';
+  margin: 0 auto;
+  border-bottom: 2px solid #cda274;
+}
+
+.second>.price {
+    border-bottom: 2px solid #292F36;
+}
+
+.price > p {
+  font-weight: bold;
+  font-family: 'DM Serif Display';
+  font-size: 20px;
+  text-align: center;
+}
+
+.price>p:last-child{
+    margin: 0;
+  padding-bottom: 15%;
+}
+
+.price > .all-price {
+  font-size: 60px;
+  font-family: 'DM Serif Display';
+  margin: 0;
+}
+
+.price > .all-price > span {
+  font-size: 20px;
+  color: #292f36;
+}
+
+.second>.price>.all-price {
+    color: #CDA274;
+}
+
+.price > .all-price > p {
+  font-size: 20px;
+  margin: 0;
+}
+
+
+.plan-content {
+  color: #4d5053;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+}
+
+/* get started button */
+.getStarted {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.getStarted > button {
+  font-family: Jost;
+  font-size: 14px;
+  width: 80%;
+  padding: 10% 0%;
+  margin: 5%;
+  background-color: #cda274;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second>.getStarted>button {
+    background-color: #292F36;
+}

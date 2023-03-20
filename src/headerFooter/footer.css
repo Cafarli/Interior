@@ -1,0 +1,152 @@
+.footer {
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+.f-info{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-social-medias {
+    width:30%;
+    padding-right: 8%;
+}
+
+.f-pages,.f-services {
+    width: 19%;
+}
+
+.f-logo-text{
+    font-family: 'DM Serif Display';
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+}
+
+.f-logo-text>a{
+    text-decoration: none;
+    color: black;
+}
+
+.f-text{
+    width: 80%;
+}
+
+.f-logo {
+    display: flex;
+    width: 10%;
+    align-items: center;
+}
+
+.f-logo>img{
+    width: 100%;
+}
+
+.f-about-text>p {
+    margin: 0;
+    font-family: Jost;
+    font-weight: 300;
+}
+
+.f-smedia {
+    margin: 8% 0;
+}
+
+.f-smedia>ul {
+    display: flex;
+    padding: 0;
+}
+
+.f-smedia>ul>li {
+    list-style-type: none;
+    margin-right: 15%;
+}
+
+.f-pages>p:first-child,
+.f-services>p:first-child,
+.f-contact>p:first-child{
+    font-family: 'DM Serif Display';
+    font-size: 18px;
+    color: #292F36;
+}
+
+.f-pages>ul>li>a,
+.f-services>ul>li>a,
+.f-contact>p>a,
+.f-contact>p{
+    font-family: 'Jost';
+    font-size: 15px;
+    color: #4D5053;
+}
+
+.f-pages>ul>li>a:hover,
+.f-services>ul>li>a:hover {
+    color: black;
+}
+
+.f-pages>ul>li,
+.f-services>ul>li {
+    margin-bottom: 10%;
+    list-style-type: none;
+}
+
+.f-pages>ul,
+.f-services>ul {
+    padding: 0;
+}
+
+
+/* TERMS */
+.terms {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.terms>ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 5% 0 0 0;
+}
+
+.terms>ul>ol>a {
+    color: #4D5053;
+    font-size: 14px;
+    padding: 0;
+}
+
+/* CONTACT */
+.f-contact {
+    width: 21%;
+    color: #4D5053;
+    font-family: 'Jost';
+}
+
+/* COPY RIGHT */
+
+.f-copyright {
+    text-align: center;
+    color: #4D5053;
+    font-family: 'Jost';
+    font-size: 14px;
+    font-family: 'Jost';
+    margin: 2% 0% 5% 0;
+}
+
+@media screen and (max-width: 768px) {
+    .f-social-medias {
+        width: 28%;
+        padding-right: 5%;
+    }
+
+    /* TERMS */
+    .terms {
+        width: 100%;
+    }
+}

@@ -1,0 +1,51 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-logo-text{
+    font-family: 'DM Serif Display';
+    font-size: 22px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 13%;
+}
+
+.header-text{
+    width: 80%;
+}
+
+.header-logo {
+    display: flex;
+    width: 8%;
+    align-items: center;
+}
+
+.header-logo>img{
+    width: 100%;
+}
+
+.header-pages {
+    width: 55%;
+    display: flex;
+}
+
+.header-pages>ul{
+    list-style-type: none;
+    font-family: Jost;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-pages>ul>li{
+    margin-right: 6%;
+}
